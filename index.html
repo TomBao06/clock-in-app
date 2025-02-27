@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clock In & Out</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <h1>Clock In & Out App</h1>
+        <p>Current Time: <span id="currentTime"> </span></p>
+        <button onclick="clockIn()">Clock In</button>
+        <button onclick="clockOut()">Clock Out</button>
+        <h2>Work Log</h2>
+        <ul id="log"></ul>
+        <h3>Edit Time</h3>
+        <input type="datetime-local" id="editTime">
+        <button onclick="editLasEntry()">Edit Last Entry</button>
+        <script scr="script.js"></script>
+
+    </body>
+</html>
